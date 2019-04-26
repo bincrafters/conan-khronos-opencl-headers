@@ -2,7 +2,7 @@
 
 | Bintray | Windows | Linux & macOS |
 |:--------:|:---------:|:-----------------:|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/opencl-headers%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/opencl-headers%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-opencl-headers?svg=true)](https://ci.appveyor.com/project/bincrafters/conan-opencl-headers)|[![Build Status](https://travis-ci.com/bincrafters/conan-opencl-headers.svg)](https://travis-ci.com/bincrafters/conan-opencl-headers)|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/khronos-opencl-headers%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/khronos-opencl-headers%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-khronos-opencl-headers?svg=true)](https://ci.appveyor.com/project/bincrafters/conan-khronos-opencl-headers)|[![Build Status](https://travis-ci.com/bincrafters/conan-khronos-opencl-headers.svg)](https://travis-ci.com/bincrafters/conan-khronos-opencl-headers)|
 
 ## Conan Information
 

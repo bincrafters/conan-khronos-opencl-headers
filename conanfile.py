@@ -4,8 +4,8 @@ from conans import ConanFile, tools
 import os
 
 
-class OpenCLHeadersConan(ConanFile):
-    name = "opencl-headers"
+class KhronosOpenCLHeadersConan(ConanFile):
+    name = "khronos-opencl-headers"
     version = "20190412"
     description = "C language headers for the OpenCL API"
     topics = ("conan", "opencl", "header-only", "opencl-headers", "api-headers")
