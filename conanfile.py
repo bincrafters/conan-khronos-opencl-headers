@@ -6,7 +6,7 @@ import os
 
 class KhronosOpenCLHeadersConan(ConanFile):
     name = "khronos-opencl-headers"
-    version = "20190412"
+    version = "20190502"
     description = "C language headers for the OpenCL API"
     topics = ("conan", "opencl", "header-only", "opencl-headers", "api-headers")
     url = "https://github.com/bincrafters/conan-opencl-headers"
@@ -18,8 +18,8 @@ class KhronosOpenCLHeadersConan(ConanFile):
     _source_subfolder = "source_subfolder"
 
     def source(self):
-        commit = "745c724b4ac623b1c42044454cb867e537d3917e"
-        sha256 = "8e10fe83984899c5ad902f5c7a2b2517cc6f0f4615ff340093a1a06e785a22de"
+        commit = "c5a4bbeabb10d8ed3d1c651b93aa31737bc473dd"
+        sha256 = "d0fc2e2aeab7051a87f71dec94c6559e68eb191e1c1394d2add2c5d6ac767ca4"
         tools.get("{0}/archive/{1}.tar.gz".format(self.homepage, commit), sha256=sha256)
         extracted_dir = "OpenCL-Headers-" + commit
         os.rename(extracted_dir, self._source_subfolder)
