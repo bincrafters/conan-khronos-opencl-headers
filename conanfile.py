@@ -9,7 +9,6 @@ class KhronosOpenCLHeadersConan(ConanFile):
     topics = ("conan", "opencl", "header-only", "opencl-headers", "api-headers")
     url = "https://github.com/bincrafters/conan-opencl-headers"
     homepage = "https://github.com/KhronosGroup/OpenCL-Headers"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "MIT"
     no_copy_source = True
     exports = ["LICENSE.md"]
