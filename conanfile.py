@@ -11,7 +11,6 @@ class KhronosOpenCLHeadersConan(ConanFile):
     homepage = "https://github.com/KhronosGroup/OpenCL-Headers"
     license = "MIT"
     no_copy_source = True
-    exports = ["LICENSE.md"]
     _source_subfolder = "source_subfolder"
 
     def source(self):
